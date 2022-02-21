@@ -8,16 +8,12 @@ require __DIR__ . '/../vendor/autoload.php';
 $homePage = new HomePageObject();
 $homeIterator = $homePage->getHome()->getIterator();
 $links = [];
-foreach ($homeIterator as $link) {
-    $links[] = $link;
-}
+foreach ($homeIterator as $link) $links[] = $link;
 
 $siteMap = new SiteMapPageObject();
 $siteMapIterator = $siteMap->getSiteMap($links[9]->link)->getIterator();
 $contents = [];
-foreach ($siteMapIterator as $content) {
-    $contents[] = $content;
-}
+foreach ($siteMapIterator as $content) $contents[] = $content;
 
 echo '----------------------------------------------------' .PHP_EOL;
 echo 'Caminho da imagem: ';

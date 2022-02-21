@@ -10,7 +10,7 @@ class SiteMapPageObject extends AbstractPageObject
 {
     use ForsetiLoggerTrait;
 
-    public function getSiteMap(string $url)
+    public function getSiteMap($url)
     {
         $this->info('Página Site Map...');
         $response = $this->request('GET', Urls::HOME_PAGE . $url);

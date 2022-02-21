@@ -28,6 +28,9 @@ abstract class AbstractIterator implements \Iterator, \Countable
      */
     protected $html;
 
+    /**
+     * @throws Exception
+     */
     public function __construct($body, $xpath)
     {
         $this->dom = new Crawler();

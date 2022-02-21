@@ -2,7 +2,6 @@
 
 namespace Heliosugano\Desafio01Forseti\Parser;
 
-use Exception;
 use Symfony\Component\DomCrawler\Crawler;
 
 abstract class AbstractParser
