@@ -2,6 +2,7 @@
 
 namespace Heliosugano\Desafio01Forseti\PageObject;
 
+use Exception;
 use GuzzleHttp\ClientInterface;
 use Heliosugano\Desafio01Forseti\Factory\GuzzleClientFactory;
 use Heliosugano\Desafio01Forseti\Traits\ForsetiLoggerTrait;
@@ -21,7 +22,7 @@ abstract class AbstractPageObject
     {
         try {
             return $this->client->request($method, $uri, $options);
-        } catch (\Exception $error) {
+        } catch (Exception $error) {
             $this->error($error->getMessage());
             return null;
         }

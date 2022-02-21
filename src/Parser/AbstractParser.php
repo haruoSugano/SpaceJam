@@ -2,12 +2,16 @@
 
 namespace Heliosugano\Desafio01Forseti\Parser;
 
+use Exception;
 use Symfony\Component\DomCrawler\Crawler;
 
 abstract class AbstractParser
 {
     protected $crawler;
 
+    /**
+     * @var string
+     */
     protected $html;
 
     public function __construct($html)
@@ -17,6 +21,9 @@ abstract class AbstractParser
         $this->crawler->addHtmlContent($html);
     }
 
+    /**
+     * @return string
+     */
     public function getHtml()
     {
         return $this->html;
