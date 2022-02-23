@@ -2,6 +2,8 @@
 
 ### Captura de informação do site: https://www.spacejam.com/1996/
 
+* Objetivo: Navegar até a url: https://www.spacejam.com/1996/cmp/sitemap.html, e realizar a captura da primeira coluna da tabela.
+
 ### Requerimentos
 * PHP **>=** 5.6
 * Composer
