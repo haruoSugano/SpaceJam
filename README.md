@@ -1,6 +1,6 @@
 # desafio01-forseti
 
-### Captura de informação do site https://www.spacejam.com/1996/
+### Captura de informação do site: https://www.spacejam.com/1996/
 
 ### Requerimentos
 * PHP **>=** 5.6
