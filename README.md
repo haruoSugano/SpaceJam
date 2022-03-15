@@ -1,4 +1,4 @@
-# desafio01-forseti
+# desafio01
 
 ### Captura de informação do site: https://www.spacejam.com/1996/
 
