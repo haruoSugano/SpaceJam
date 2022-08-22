@@ -11,13 +11,13 @@
 ### Como utilizar:
 * Clone este repositório 
 ```
-git clone https://github.com/haruoSugano/desafio01-forseti
+git clone git@github.com:haruoSugano/SpaceJam.git
 ```
 * Instalar o composer
 ```
 composer install
 ```
-* Navegar até o diretório desafio01-forseti, digitar o comando:
+* Navegar até o diretório SpaceJam, digitar o comando:
 ```
 php example/home.php
 ```
